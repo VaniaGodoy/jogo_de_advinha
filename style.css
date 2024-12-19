@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Configurações gerais */
+body {
+    background: linear-gradient(to bottom right, #081d40, #82bbd6);
+    text-align: center;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+h1 {
+    font-size: 2rem;
+    color: #e6e7f1;
+    font-weight: bold;
+}
+
+/* Texto descritivo */
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #e6e7f1;
+    line-height: 30px;    
+}
+
+/* Texto informativo */
+label {
+    font-size: 1rem;
+    color: #e6e7f1;
+    line-height: 60px;    
+}
+
+/* Estilização do formulário */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Campo de entrada */
+input[type="number"] {
+    padding: 5px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+/* Botão */
+button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;   
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Feedback do resultado */
+.resultado {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #e6e7f1;
+}
+
+.resultado.sucesso {
+    color: green;
+}
+
+.resultado.erro {
+    color: red;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    form {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        max-width: 100px;
+    }
+}
