@@ -1,6 +1,6 @@
 ## Jogo de Adivinhação - Número Secreto
 
-![Prévia do design jogo de adivinha que desenvolvi](./video/Gravação%20de%20Tela%202024-12-19%20183730.mp4)
+![Prévia do design jogo de adivinha que desenvolvi](./img/tela.png)
 
 Este é um jogo de adivinhação simples onde o jogador deve tentar descobrir um número secreto gerado aleatoriamente entre 1 e 100. O jogo fornece dicas se o número secreto é maior ou menor que o chute do jogador e oferece 10 tentativas para acertar.
 
