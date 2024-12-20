@@ -55,5 +55,4 @@ Canvas-Confetti: Para animações de confete ao acertar o número secreto.
 
 ## Autor
 
-- **LinkedIn:** [Seu Perfil no LinkedIn](#)
-- **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
+- **GitHub:** [Vania Godoy ♥](https://github.com/VaniaGodoy)
